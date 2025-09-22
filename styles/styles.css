@@ -1,0 +1,31 @@
+.blok {
+    display: block;
+    color: red;
+    background-color: bisque;
+    width: 400px;
+    height:150px;
+}
+
+.inline {
+    display: inline;
+    color: rgb(207, 221, 14);
+    background-color: rgb(14, 10, 6);
+    width: 400px;
+    height:150px;
+}
+
+.inline-block {
+    display: inline-block;
+    color: rgb(24, 182, 230);
+    background-color: rgb(56, 6, 172);
+    width: 400px;
+    height:150px;
+}
+
+.line {
+    display: inline-block;
+    color: rgb(113, 24, 230);
+    background-color: rgb(172, 6, 6);
+    width: 300px;
+    height:50px;
+}
