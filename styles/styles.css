@@ -9,7 +9,7 @@
 .inline {
     display: inline;
     color: rgb(207, 221, 14);
-    background-color: rgb(14, 10, 6);
+    background-color: rgb(103, 0, 238);
     width: 400px;
     height:150px;
 }
@@ -22,10 +22,49 @@
     height:150px;
 }
 
-.line {
-    display: inline-block;
-    color: rgb(113, 24, 230);
-    background-color: rgb(172, 6, 6);
-    width: 300px;
-    height:50px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
 }
+
+.title {
+    color: rgb(27, 29, 196); padding-left: 300px;
+}
+
+.menu {
+    /* display: inline-block; */
+    
+    padding: 30px 50px;
+    
+}
+
+.menu a {
+    display: inline;
+    color: rgb(255, 255, 255);
+    background:rgb(146, 146, 146) ;
+    padding: 10px 50px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: bacground 0.3s;
+    
+    /* position: relative;
+    left: 180px; */
+
+}
+.menu a:hover{
+    background: rgb(255, 0, 0);
+    padding: 14px 50px;
+    
+   
+}
+.div{
+    padding: 20px;
+}
+.p{
+    margin-bottom: 30px;
+}
+.dashed {border: 2px dashed wheat}
