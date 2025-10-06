@@ -1,0 +1,73 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: gray;
+    padding: 10px;
+}
+.menu a{
+    background: gray;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: blue;
+    padding: 14px 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.item{
+    flex: 1 1 80px;
+    padding: 20px;
+    background: lightblue;
+    text-align: center;
+    font-weight:bold;
+    border-radius: 9px;
+  
+}
+.special{
+    order: -1;
+    background: lightgreen;
+}
+.item1{flex-grow: 1;}
+.item2{flex-grow: 2;}
+.item{
+    flex-shrink: 0;
+    flex: 1 1 200px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    background: #fafafa;
+}
+.card{
+    flex: 1 1 200px;
+    background: gray;
+    border: 2px solid #38bdf8;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.card--big{
+    flex-grow: 2;
+    background: black;
+    border-color: blue;
+}
+.container-greed{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+}
+.item{
+
+}
