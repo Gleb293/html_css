@@ -1,0 +1,24 @@
+.card__info{
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.card-catalog{
+    display: flex;
+    text-align: center;
+
+}
+.card{
+background: gray;
+border-color: black;
+padding: 10px 20px;
+border-radius: 30px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 200PX;
+    gap: 10PX;
+}
