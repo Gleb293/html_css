@@ -17,15 +17,8 @@
           </header>
           <main>
             <div class="loader"></div>
-            <!-- <div class="container"> -->
-              <!-- <div class="item">1</div> -->
-              <!-- <div class="item special">2 vazni</div> -->
-              <!-- <div class="item">3</div> -->
-              <!-- <div class="item">4</div> -->
-            <!-- </div> -->
-
             <section class="cards">
-              <article class="card">
+              <article class="card grad">
                 <img src="C:\Users\st\Downloads\7026.970.webp" alt="pen"
                 width="150"
                 height="200px"
@@ -37,7 +30,7 @@
                   <p>цена:10000$</p>
                 </div>
               </article>
-              <article class="card">
+              <article class="card  grad">
                 <img src="C:\Users\st\Downloads\Без названия.png" alt="pen1"
                 width="150px"
                 height="200px"
@@ -48,14 +41,16 @@
                   <p>цена:10000$</p>
                 </div>
               </article>
-              <article class="card"><img src="C:\Users\st\Downloads\Без названия.jfif" alt="pen2" width="150px" height="200px">
+              <article class="card card1 grad">
+                <img src="C:\Users\st\Downloads\Без названия.jfif" alt="pen2" width="150px" height="200px">
                 <div>
                   <p>Ручка 3</p>
                   <p>оттлично пишет</p>
                   <p>цена:10000$</p>
                 </div>
               </article>
-              <article class="card card--big text"><img src="C:\Users\st\Downloads\Без названия (1).jfif" alt="pen3"   width="150px"
+              <article class="card card--big text grad">
+                <img src="C:\Users\st\Downloads\Без названия (1).jfif" alt="pen3"   width="150px"
                 height="200px">
               <div>
                 <p>Ручка 4</p>
@@ -63,7 +58,7 @@
                 <p>цена:10000$</p>
               </div>
               </article>
-              <article class="card ">Карточка 5
+              <article class="card grad">Карточка 5
               
 <img src="C:\Users\st\Downloads\Без названия (2).jfif" alt="pen 5" width="150px" height="200px">
               <div>
@@ -73,14 +68,38 @@
               </article>
               <button class="animation-buttom">Click</button>
             </section>
+            <form action="/search">
+              <!-- <label for="q">Поиск:</label> -->
+              <input id="q" name="q" type="text" placeholder="Поиск">
+              <button type="submit">Найти</button>
+            </form>
+            <label for="email">Email</label>
+            <input id="email" name="message" rows="4" placeholder="message">
             <a class="a-under" href="#">krasivaia silka</a>
-            <!-- <div class="container-greed"> -->
-              <!-- <div class="item-greed">1</div> -->
-              <!-- <div class="item special-greed">2 vazni</div> -->
-              <!-- <div class="item-greed">3</div> -->
-              <!-- <div class="item-greed">4</div> -->
-            <!-- </div> -->
+            <label for="city">Город</label>
+         <select name="cyti" id="cyti">
+              <option value="msk">Москва</option>
+              <option value="spb">Санкт-Питербург</option>
+              <option value="mnsk">Минск</option>
+         </select>
+
+         <section id="registration" class="registration">
+           <form> class="auth" action="/signup" method="post">
+          <h3 class="auth__title">Регистрация</h3>
+          <label class="auth__label">Имя
+          <input class="auth__input" name="name" type="text" placeholder="Ваше имя" required>
+          </label>
+          <label class="auth__label">Email
+          <input class="auth__input" name="email" type="email" placeholder="you@mail.com">
+          </label>
+          <label class="auth__label">Пароль
+          <input class="auth__input" name="password" type="password" placeholder="*******">
+          </label>
+          <button class="auth__btn" type="submit">Создать</button>
+         </form>
            
+         </section>
+        
           </main>
       </body>
 </html>
