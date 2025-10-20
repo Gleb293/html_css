@@ -169,3 +169,27 @@ gap: 20px;
     .registration{
         width: 200px;
     }
+    .auth{
+        border-radius: 10px;
+        border-color: black;
+        background:lightblue;
+        width: 800px;
+        height: 250px;
+        
+    }
+    .auth__title{
+      text-align: center;
+    }
+    .auth__input{
+        width: 400px;
+        height: 30px;
+    }
+    .auth__btn{
+        width: 400px;
+        height: 30px;
+    }
+    .reset{
+        border-radius: 5px;
+        border-color: black;
+     
+    }
