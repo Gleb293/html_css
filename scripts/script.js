@@ -118,8 +118,72 @@ default:console.log("god");
 let isonline=true;
 let status=isonline ? "в сети ":"не в сети";
 console.log(status);
-
-
 let zakaz=false;//0
 let info=zakaz ? "пришел":"не пришел";
 console.log('статус заказа:', info);
+for(i=0;i<=5;i++){
+    console.log("povtor"+i);
+}
+
+for (let q=2;q<=10;q+=2){
+    console.log(q);
+}
+
+for(let i=5;i<=15;i++){
+    console.log(i);
+}
+
+for(let i=5;i>=5;i--){
+    console.log(i);
+}
+console.log("Страт!")
+
+let e=1;
+while(e<=3){
+    console.log("шаг "+e)
+    e++;
+}
+
+let money=100;
+while(money>0){
+    console.log("покупаю мороженое");
+    money-=20;
+}
+
+let n=10;
+while(n>0){
+    console.log(n);
+    n--;
+}
+
+let password;
+do{
+    password=prompt("Enter password:");
+}while(password !=="1234");
+console.log("Password is right!")
+
+
+let ch;
+do{
+    ch=prompt("Enter number:");
+}while(ch !=="5");
+console.log("ok")
+
+let fruits=["апельсин","яблоко","груша"]
+for(let fruit of fruits){
+    console.log(fruit);
+}
+
+for(let letter of "privet"){
+    console.log(letter);
+} 
+
+let animals=["енот","кот","собака","человек","ехидна"]
+for(let animal of animals){
+    console.log(animal);
+}
+
+let person={name:"Gleb",age:14,city:"Minsk"};
+for(let key in person){
+    console.log(key + ": "+person[key]);
+}
