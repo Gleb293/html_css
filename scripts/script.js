@@ -156,7 +156,7 @@ while(n>0){
     n--;
 }
 
-let password;
+/*let password;
 do{
     password=prompt("Enter password:");
 }while(password !=="1234");
@@ -167,7 +167,7 @@ let ch;
 do{
     ch=prompt("Enter number:");
 }while(ch !=="5");
-console.log("ok")
+console.log("ok")*/
 
 let fruits=["апельсин","яблоко","груша"]
 for(let fruit of fruits){
@@ -187,3 +187,50 @@ let person={name:"Gleb",age:14,city:"Minsk"};
 for(let key in person){
     console.log(key + ": "+person[key]);
 }
+
+let me={name:"Gleb",age:14,city:"Minsk"};
+for(let key in person){
+    console.log(key + ": "+me[key]);
+}
+
+for(let i=1;i<=10;i++){
+    if (i===5)break;
+    console.log(i);
+}
+
+for (let i=1;i<=5;i++){
+    if (i===3)continue;
+    console.log(i);
+}
+
+for (let i=1;i<=10;i++){
+    if(i%2===0) continue;
+    console.log(i);
+}
+
+let sum=0;
+for(i=0;i<=5;i++){
+    sum+=i;
+    console.log(sum);
+}
+
+let umn;
+for(let i=0;i<=10;i++){
+    // umn=5*i;
+    // console.log(umn)
+    console.log(`3 x ${i} = ${3 * i}`);
+}
+
+let word="банан";
+let count=0;
+for(let letter of word){
+    if (letter === "а") count++;
+}
+console.log(`букв в слове ${word}:` ,count)
+
+let frw="ананас";
+let  frwc=0;
+for (let letter of frw.toLowerCase()){
+    if (letter === "а") frwc++;
+}
+console.log(`букв в слове ${frw}:`,frwc);
