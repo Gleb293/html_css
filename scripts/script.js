@@ -234,3 +234,45 @@ for (let letter of frw.toLowerCase()){
     if (letter === "а") frwc++;
 }
 console.log(`букв в слове ${frw}:`,frwc);
+
+
+
+function summa(a,b){
+  return a+b;
+}
+
+let result=summa(1,2);
+alert(result);
+
+const sayhi=function(){
+    console.log("привет");
+}
+sayhi();
+
+
+const square = x=>x*x;
+console.log(square(5));
+let resultt =square(4);
+console.log(resultt);
+
+function user(name){
+    this.name=name;
+};new user("Gleb");
+
+setInterval(()=>{
+    console.log("every second");
+},1000);
+
+let name="Gleb";
+function sayHi(){
+    alert("Hi, "+name);
+}
+name="Dima";
+sayHi();
+
+
+function sm(a,b,c){
+    return a+b+c;
+  }
+  let res=sm(3,10,1);
+  console.log(res);
